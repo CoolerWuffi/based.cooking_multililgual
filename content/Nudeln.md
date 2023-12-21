@@ -9,7 +9,7 @@ translator: develcooking
 
 Das ist eine einfache grobe Anleitung zum kochen von Nudeln, die im Laden gekauft wurden.
 Kurzgesagt: Du kochst sie.
-Nudeln werden normalerweiße mit irgendeiner Art von [Soße](/nudel-Soße) gegessen oder in einem anderen Gericht verwendet.
+Nudeln werden normalerweiße mit irgendeiner Art von [Soße](/nudel-soße) gegessen oder in einem anderen Gericht verwendet.
 
 ## Zutaten
 
