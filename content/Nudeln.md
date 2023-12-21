@@ -1,5 +1,5 @@
 ---
-title: "Nudeln (Vom Laden)"
+title: "Nudeln Gekocht"
 date translated: 21.12.2023
 date: 10.03.2021
 tags: ['Italinisch', 'Nudeln', 'Schnell', 'Einfach', 'Vegan', 'Vegetarisch']
@@ -7,7 +7,7 @@ author: luke-smith
 translator: develcooking
 ---
 
-Das ist eine einfache grobe Anleitung zum kochen von Nudeln.
+Das ist eine einfache grobe Anleitung zum kochen von Nudeln, die im Laden gekauft wurden.
 Kurzgesagt: Du kochst sie.
 Nudeln werden normalerweiße mit irgendeiner Art von [Soße](/Nudel-Soße) gegessen oder in einem anderen Gericht verwendet.
 
