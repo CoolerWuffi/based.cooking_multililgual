@@ -1,7 +1,8 @@
 ---
 title: 'Kombucha'
-tags: ['Gedränk', 'Süßichkeit']
-date: 2022-12-30
+date-translated: 19.11.2023
+date: 30.12.2022
+tags: ['Gedränk', 'Süßigkeit']
 author: elias-pahls
 translator: develcooking
 ---

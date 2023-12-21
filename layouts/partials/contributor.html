@@ -1,6 +1,6 @@
 {{ $author := index .Site.Data.authors (.Params.author | default "default") }}
 {{- if $author -}}
-<h2>Contributor(s)</h2>
+<h2>Rezeptschreibende Person(en)</h2>
 <ul>
 <li>
 {{- if $author.website -}}<a href="{{ $author.website }}">{{- end -}}

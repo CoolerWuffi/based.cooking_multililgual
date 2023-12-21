@@ -1,6 +1,7 @@
 ---
 title: "Älplermagronen (Alpenmakkaroni)"
-date: 2021-03-11
+date-translated: 3.12.2023
+date: 11.03.2021
 tags: ['Schweizer', 'Schweinefleisch', 'Katoffel', 'Nudeln']
 translator: develcooking
 author: alexander-bocken

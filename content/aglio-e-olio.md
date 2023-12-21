@@ -1,7 +1,7 @@
 ---
 title: "Spaghetti aglio e olio"
-date translated: 3.12.2023
-date: 2021-03-21
+date-translated: 3.12.2023
+date: 21.03.2021
 tags: ['Italienisch', 'Nudeln']
 author: robert5800
 translator: develcooking
