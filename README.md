@@ -9,18 +9,20 @@ EN: This is a german fork of [based.cooking](https://based.cooking/) and [public
 
 
 DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseite zu übersetzen
-(Die Restliche readme Datei wird demnächst übersetzt™️))
+
 
 
 Dies ist eine einfache Koch-Webseite, auf der Nutzer Rezepte einreichen können, um dafür Anerkennung zu erhalten.
 Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um Rezepte).
 
-This site is compiled and organized with Hugo, using [this very simple theme](https://github.com/lukesmithxyz/lugo).
+Die Seite wird von Hugo in Verwaltet und umgeschrieben, es wird momentan noch [dieses einfache Farbe](https://github.com/lukesmithxyz/lugov) verwendet.
 
-## Wege der Teilhabe
-- Durch Hinzufügen eines Rezepts.
-- Erstellen Sie ein Rezept und machen Sie ein schönes Foto davon, wenn noch kein schönes Bild
-  existiert. Eingereichte Bilder sollten kleine `.webp` Dateien sein, idealerweise weniger als 100K
+
+## Möglichkeiten der Teilhabe
+Die Teilhabe ist möglich:
+
+- Durchs Hinzufügen eines Rezepts.
+- Erstellen eines schönes Fotos von einem bereits existierenden Rezept, falls noch kein schönes Bild existiert. Eingereichte Bilder sollten kleine `.webp` Dateien sein, idealerweise weniger als 100K
     oder so.
 - Beheben Sie Fehler in Rezepten oder fügen Sie kleinere Verbesserungen hinzu.
 
@@ -35,7 +37,7 @@ This site is compiled and organized with Hugo, using [this very simple theme](ht
   Liste.
 - Fügen Sie kein Bild ein, es sei denn, Sie haben es (1) selbst aufgenommen, und - was noch wichtiger ist
   (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen meiner Meinung nach
-  wie unappetitliche NEET-Fotos aus, Sie können also gerne selbst ein besseres Bild machen
+  wie unappetitliche "BRAUCHEN-Bild" Fotos aus, Sie können also gerne selbst ein besseres Bild machen
   selbst ein besseres Foto zu machen und es einzureichen, wenn du ein Gericht machst. Wenn Sie nicht wissen, ob Ihr Bild gut ist
   gut ist, lassen Sie Ihr Foto bitte von einer Person, die sich als Frau indenfiziert aus dem wirklichen Leben absegnen, bevor
   du es einreichst. Ich meine das ernst, es ist eine Verschwendung für dich und mich an Zeit,
@@ -43,12 +45,9 @@ This site is compiled and organized with Hugo, using [this very simple theme](ht
 - Das Dokument sollte im Unix-Stil mit einer neuen Zeile am Ende versehen sein.
  Falls Sie Linux verwenden, brauchen Sie sich keine Sorgen zu machen, da dies automatisch geschieht.
 
-**If you fail to do these things, I will close your submission and you will have to resubmit. I am tired of having to fix more than 50% of submissions.**
+**Wenn Sie diese Anweisungen nicht befolgen, werde ich Ihre Einreichung schließen, und Sie müssen sie erneut einreichen. Es ist mir leid, mehr als 50% der Einreichungen korrigieren zu müssen.**
 
-You may include a json file with your personal links/donation addresses in
-`data/authors/your-name.json`. See mine (`data/authors/luke-smith.json`) for a
-model. You can include: `website`, `donate` (general donation link), `email` or
-crypto addresses as `btc`, `xmr` and `eth`.
+Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 'data/authors/your-name.json' einfügen. Schauen Sie sich meine Datei ('data/authors/luke-smith.json') als Modell an. Sie können folgende Informationen hinzufügen: 'website', 'donate' (allgemeiner Spendenlink), 'email' oder Krypto-Adressen wie 'btc', 'xmr' und 'eth'.
 
 ### Tags/Filter
 
@@ -65,7 +64,7 @@ Falls Ihr Rezept keine Gluten enthält, verwenden Sie den Tag 'Glutenfrei'.
 Wir schätzten und unterstützen hier alle die nur eine begrenzte Auswahl an Nahrungsmittel haben, oder nicht essen möchten.
 
 
-### Images
+### Bilder
 
 Bilder werden im Verzeichnis /pix gespeichert.
 
