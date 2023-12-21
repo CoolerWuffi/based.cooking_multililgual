@@ -4,46 +4,44 @@
 [https://kochenmit.style](https://kochenmit.style)
 
 EN: This is a german fork of [based.cooking](https://based.cooking/) and [publicdomainrecipes](https://publicdomainrecipes.com/) that tries to translate the Sites
-(The rest of the readme file will be translated soon™️))
 
 
-DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseiten zu übersetzen
+
+
+DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseite zu übersetzen
 (Die Restliche readme Datei wird demnächst übersetzt™️))
 
 
-
-
-This is a simple cooking website where users can submit recipes here for credit.
-There are no ads, trackers or cookies (unless recipes thereof).
+Dies ist eine einfache Koch-Webseite, auf der Nutzer Rezepte einreichen können, um dafür Anerkennung zu erhalten.
+Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um Rezepte).
 
 This site is compiled and organized with Hugo, using [this very simple theme](https://github.com/lukesmithxyz/lugo).
 
-## Ways to contribute
+## Wege der Teilhabe
+- Durch Hinzufügen eines Rezepts.
+- Erstellen Sie ein Rezept und machen Sie ein schönes Foto davon, wenn noch kein schönes Bild
+  existiert. Eingereichte Bilder sollten kleine `.webp` Dateien sein, idealerweise weniger als 100K
+    oder so.
+- Beheben Sie Fehler in Rezepten oder fügen Sie kleinere Verbesserungen hinzu.
 
-- By adding a recipe.
-- Make a recipe and take a nice picture of it if no nice picture already
-  exists. Submitted images should be small `.webp` files ideally less than 100K
-  or so.
-- Fix errors in recipes or add minor improvements.
+## Regeln für die Einreichung
 
-## Rules for submission
-
-- Model submission files after [example.md](example.md). Put them in `content/`.
-- File names should be the name of the dish with words separated by hyphens
-  (`-`). Not underscores, and definitely not spaces.
-- Recipe must be "based," i.e. good traditional and substantial food. Nothing
-  ironic, meme-tier hyper-sugary, meat-substitute, etc.
-- Don't include salt and pepper and other ubiquitous things in the ingredients
-  list.
-- Don't include an image unless (1) you took it yourself, and more importantly
-  (2), **it actually looks good**! Most existing images on this site IMO look
-  like unappetizing NEET photos, so you are welcome to take one a better one
-  yourself and submit it if you make a dish. If you don't know if your image is
-  good, please have a real-live woman in real life approve your photo before
-  you submit it. I'm serious about this, it's a waste for me to wade through
-  disgusting photos in PRs.
-- The file needs to be `\n` terminated in unix-fashion (if you're on Linux you
-  don't need to care, it should be automatic).
+- Modellieren Sie die Einreichungsdateien nach [beispiel.md](beispiel.md). Legen Sie sie in `content/` ab.
+- Der Dateiname sollte der Name des Gerichts sein, wobei die Wörter durch Bindestriche getrennt werden
+  (`-`). Keine Unterstriche und definitiv keine Leerzeichen.
+- Das Rezept muss "ernst" sein, also ein gutes traditionelles und gehaltvolles Essen. Nichts
+  ironisches, meme-tier überzuckertes, etc.
+- Salz und Pfeffer und andere allgegenwärtige Dinge sollten in der Zutatenliste nicht enthalten sein.
+  Liste.
+- Fügen Sie kein Bild ein, es sei denn, Sie haben es (1) selbst aufgenommen, und - was noch wichtiger ist
+  (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen meiner Meinung nach
+  wie unappetitliche NEET-Fotos aus, Sie können also gerne selbst ein besseres Bild machen
+  selbst ein besseres Foto zu machen und es einzureichen, wenn du ein Gericht machst. Wenn Sie nicht wissen, ob Ihr Bild gut ist
+  gut ist, lassen Sie Ihr Foto bitte von einer Person, die sich als Frau indenfiziert aus dem wirklichen Leben absegnen, bevor
+  du es einreichst. Ich meine das ernst, es ist eine Verschwendung für dich und mich an Zeit,
+   die ich micht durch eckelhafte Essensbilder klicken darf.
+- Das Dokument sollte im Unix-Stil mit einer neuen Zeile am Ende versehen sein.
+ Falls Sie Linux verwenden, brauchen Sie sich keine Sorgen zu machen, da dies automatisch geschieht.
 
 **If you fail to do these things, I will close your submission and you will have to resubmit. I am tired of having to fix more than 50% of submissions.**
 
@@ -52,39 +50,45 @@ You may include a json file with your personal links/donation addresses in
 model. You can include: `website`, `donate` (general donation link), `email` or
 crypto addresses as `btc`, `xmr` and `eth`.
 
-### Tags
+### Tags/Filter
 
-Remember to add tags to your recipe, but try to use tags already used by other recipes.
+Tags fungieren hier als Filter. Aufgrunddessen empfehlen Ihnen so viele zutreffende wie möglich zu nutzten.
+Vergessen Sie nicht, Tags zu Ihrem Rezept hinzuzufügen. Versuchen Sie, Tags zu verwenden, die bereits von anderen Rezepten genutzt werden, wir sind auch offen für neue.
+Bitte Vergisst nicht Fische sind auch Tiere. Sie zählen bei der auflistung hier unter Fleisch, haben aber einen eigenen Tag.
 
-If your recipe contains no meat or dairy, include the `fasting` tag.
-If it includes dairy but no milk, include the `cheesefare` tag.
+Falls Ihr Rezept weder Fleisch, Milchprodukte noch Eier enthält, fügen Sie den Tag 'Vegan' hinzu.
+Falls Ihr Rezept kein Fleisch enthält, fügen Sie den Tag 'Vegetarisch' hinzu.
+Falls Ihr Rezept keine Milchprodukte enthält, verwenden Sie den Tag 'Laktosefrei'.
+Falls Ihr Rezept keine Nüsse enthält, verwenden Sie den Tag 'Nussfrei'.
+Falls Ihr Rezept keine Gluten enthält, verwenden Sie den Tag 'Glutenfrei'.
+
+Wir schätzten und unterstützen hier alle die nur eine begrenzte Auswahl an Nahrungsmittel haben, oder nicht essen möchten.
+
 
 ### Images
 
-Images are stored in `/pix`.
+Bilder werden im Verzeichnis /pix gespeichert.
 
-Each recipe can have a title image at the top and perhaps several instructional
-images as absolutely necessary.
+Jedes Rezept kann ein Titelbild oben und gegebenenfalls mehrere Anleitungsbilder haben.
 
-Do not add stock images you found on the internet. Take a good picture yourself
-of the actual dish created. If you see a bad or substandard image, you may
-submit a better one.
+Bitte fügen Sie keine Stockbilder aus dem Internet hinzu. Machen Sie 
+stattdessen ein eigenes Foto vom tatsächlich zubereiteten Gericht.
+ Wenn Sie ein schlechtes oder unzureichendes Bild sehen, können Sie gerne ein besseres einreichen.
 
-Images should be in `.webp` format and with as small file size as possible. If
-you submit an image for say, `chicken-parmesan.md`, it should be added as
-`pix/chicken-parmesan.webp`.
+Bilder sollten im Format .webp sein und so klein wie möglich sein.
+ Wenn Sie beispielsweise ein Bild für chicken-parmesan.md einreichen,
+  sollte es als pix/chicken-parmesan.webp hinzugefügt werden.
 
-If you would like to add additional directional images,
-they should be numbered with two digits like: `pix/chicken-parmesan-01.webp`, etc.
+Wenn Sie zusätzliche Anleitungsbilder hinzufügen möchten,
+ sollten sie nummeriert sein, z. B. pix/chicken-parmesan-01.webp, usw.
 
-Note also that images should have links beginning with a slash in this use
-case, i.e. `/pix/...`.
+Beachten Sie außerdem, dass Bildlinks in diesem Fall mit einem Schrägstrich beginnen sollten, also /pix/....
 
-## License
+## Lizenz
 
-This website and all its content is in the public domain.
-By submitting text or images or anything else to this repository,
-you waive any pretense of ownership to it,
-although you are welcome and recommended to give yourself credit
-at the bottom of a submitted page for you adding it
-(including personal or donation links).
+Diese Website und alle ihre Inhalte stehen im öffentlichen Bereich (Public domain).
+ Durch das Einreichen von Texten, Bildern oder anderem Material in dieses
+ Repository verzichten Sie auf jegliche Ansprüche auf Eigentum daran. 
+ Es steht Ihnen jedoch frei und wird empfohlen, sich am Ende eines 
+ eingereichten Seite für Ihren Beitrag zu würdigen
+ (einschließlich persönlicher oder Spendenlinks).
