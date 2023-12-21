@@ -1,6 +1,17 @@
-# Based Cooking Website
+# Kochen mit Style Webseite
 
-[https://based.cooking](https://based.cooking)
+(Webseite kommt noch)
+[https://kochenmit.style](https://kochenmit.style)
+
+EN: This is a german fork of [based.cooking](https://based.cooking/) and [publicdomainrecipes](https://publicdomainrecipes.com/) that tries to translate the Sites
+(The rest of the readme file will be translated soon™️))
+
+
+DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseiten zu übersetzen
+(Die Restliche readme Datei wird demnächst übersetzt™️))
+
+
+
 
 This is a simple cooking website where users can submit recipes here for credit.
 There are no ads, trackers or cookies (unless recipes thereof).
