@@ -2,7 +2,7 @@
 title: "Nudeln Gekocht"
 date-translated: 21.12.2023
 date: 10.03.2021
-tags: ['Italienisch', 'Nudeln', 'Schnell', 'Einfach', 'Vegan', 'Vegetarisch']
+tags: ['italienisch', 'nudeln', 'schnell', 'einfach', 'vegan', 'vegetarisch']
 author: luke-smith
 translator: develcooking
 ---

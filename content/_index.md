@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 {{< tagcloud >}}
 
 ## Über diese Webseite
-Diese Webseite ist der deutsche Ableger von <a href="https://based.cooking/en/">based.cooking</a>. Diese Seite wurde erstellt um ein einfaches online Kochbuch ohne Werbung und schlanken Design in deutsch für alle zu sein, da ich nicht gut mit englischen Wörtern in der Küche bin.  
+Diese Webseite ist der deutsche Ableger von <a href="https://based.cooking/">based.cooking</a>. Diese Seite wurde erstellt um ein einfaches online Kochbuch ohne Werbung und schlanken Design in deutsch für alle zu sein, da ich nicht gut mit englischen Wörtern in der Küche bin.  
 
 Siehen Sie in 3 Vidoes die Historie, weshalb wir diese Webseite begonnen haben.
 Diese Videos sind in Englisch.

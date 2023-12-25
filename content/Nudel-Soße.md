@@ -2,7 +2,7 @@
 title: "Nudel Soße"
 date-translated: 21.12.2023
 date: 10.03.2021
-tags: ['Italienisch', 'Einfach', 'Soße', 'Fasten','Vegan','Vegetarisch']
+tags: ['italienisch', 'einfach', 'soße', 'fasten','vegan','vegetarisch']
 author: luke-smith
 translator: develcooking
 ---

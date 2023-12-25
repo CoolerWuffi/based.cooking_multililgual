@@ -2,14 +2,14 @@
 title: "Älplermagronen (Alpenmakkaroni)"
 date-translated: 3.12.2023
 date: 11.03.2021
-tags: ['Schweizer', 'Schweinefleisch', 'Katoffel', 'Nudeln']
+tags: ['schweizer', 'schweinefleisch', 'kartoffel', 'nudeln']
 translator: develcooking
 author: alexander-bocken
 ---
 
 ![Älplermagronen](/pix/aelplermagronen.webp)
 
-Ein Schweizer Lieblingsgericht , _ÄLpermagronen_ kombieniert ziemlich alles was man in der Typischen Alpenhütte zur Verfügung hat.
+Ein Schweizer Lieblingsgericht , _Älpermagronen_ kombieniert ziemlich alles was man in der Typischen Alpenhütte zur Verfügung hat.
 Es ist die Defination vom Wohlfühlessen der Schweizer. 
 
 - 🍳 Kochzeit: ~30 Minuten
