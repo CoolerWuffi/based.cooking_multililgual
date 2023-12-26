@@ -263,7 +263,7 @@ button#clear-search:hover {
 #tag_steak:before { content: "🥩" ; }
 #tag_eintopf:before { content: "🍲" ; }
 #tag_schwedisch:before { content: "🇸🇪" ; }
-#tag_süßichkeit:before { content: "🍯" ; }
+#tag_süßigkeit:before { content: "🍯" ; }
 #tag_schweizer:before { content: "🇨🇭" ; }
 #tag_thailändisch :before { content: "🇹🇭" ;}
 #tag_tomate:before { content: "🍅" ;}
