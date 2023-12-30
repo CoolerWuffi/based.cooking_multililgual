@@ -9,7 +9,7 @@ translator: develcooking
 
 Das ist eine einfache grobe Anleitung zum kochen von Nudeln, die im Laden gekauft wurden.
 Kurzgesagt: Du kochst sie.
-Nudeln werden normalerweiße mit irgendeiner Art von [Soße](/nudel-soße) gegessen oder in einem anderen Gericht verwendet.
+Nudeln werden normalerweiße mit irgendeiner Art von Soße gespeißt. Ein gutes Beispiel für eine Nudelsoße wäre die [San-Marzano Tomatensoße](/san-marzano_tomatensoße). Gekochte Nudeln können aber auch in einem anderen Gericht verwendet.
 
 ## Zutaten
 
@@ -24,8 +24,8 @@ Nudeln werden normalerweiße mit irgendeiner Art von [Soße](/nudel-soße) geges
 2. Salzen Sie das Wasser reichlich. Als Faustregel gilt, dass das Wasser zum Kochen von Nudeln so salzig wie das Meer schmecken sollte.
 3. Bringen Sie das Wasser zum Kochen.
 4. Nun die Nudeln hinzufügen.
-5. Weiter kochen lassen, aber die Hitze verringern, wenn das Wasser überzulaufen droht.
-6. Warten, bis die Nudeln den gewünschten Weichheitsgrad erreicht haben (siehe unten), dann des Wasser abgießen.
+5. Weiter kochen lassen, aber die Hitze verringern, wenn das Wasser zu überzulaufen droht.
+6. Warten Sie, bis die Nudeln den gewünschten Weichheitsgrad erreicht haben (siehe unten), dann des Wasser abgießen.
 7. Während die Nudeln im Sieb liegen, können Sie Basilikumblätter oder andere Kräuter und Gewürze hinzufügen. Ich empfehle auch, etwa ein Stück zimmerwarme Butter hinzuzugeben und umzurühren, damit sie in den Nudeln schmilzt.
 
 ### Wie lange sollten Nudeln gekocht werden?

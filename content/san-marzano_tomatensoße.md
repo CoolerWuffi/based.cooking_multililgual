@@ -1,5 +1,5 @@
 ---
-title: "Nudel Soße"
+title: "San-Marzano Tomatensoße"
 date-translated: 21.12.2023
 date: 10.03.2021
 tags: ['italienisch', 'einfach', 'soße', 'fasten','vegan','vegetarisch']
