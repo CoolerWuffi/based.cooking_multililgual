@@ -13,7 +13,7 @@ DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und 
 
 
 Dies ist eine einfache Koch-Webseite, auf der Nutzer Rezepte einreichen können, um dafür Anerkennung zu erhalten.
-Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um Rezepte).
+Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um cookies zum essen).
 
 Die Seite wird von Hugo in Verwaltet und umgeschrieben, es wird momentan noch [dieses einfache Farbe](https://github.com/lukesmithxyz/lugov) verwendet.
 
@@ -31,29 +31,26 @@ Die Teilhabe ist möglich:
 - Modellieren Sie die Einreichungsdateien nach [beispiel.md](beispiel.md). Legen Sie sie in `content/` ab.
 - Der Dateiname sollte der Name des Gerichts sein, wobei die Wörter durch Bindestriche getrennt werden
   (`-`). Keine Unterstriche und definitiv keine Leerzeichen.
-- Das Rezept muss "ernst" sein, also ein gutes traditionelles und gehaltvolles Essen. Nichts
-  ironisches, meme-tier überzuckertes, etc.
-- Salz und Pfeffer und andere allgegenwärtige Dinge sollten in der Zutatenliste nicht enthalten sein.
-  Liste.
+- Das Rezept muss "ernst" gemeint sein, beispielsweise ein gutes traditionelles und gehaltvolles Essen. Nichts
+  ironisches, meme-tier überzuckertes, usw.
 - Fügen Sie kein Bild ein, es sei denn, Sie haben es (1) selbst aufgenommen, und - was noch wichtiger ist
   (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen meiner Meinung nach
-  wie unappetitliche "BRAUCHEN-Bild" Fotos aus, Sie können also gerne selbst ein besseres Bild machen
+  wie unappetitliche "Wir-BRAUCHEN-Bilder" Fotos aus, Sie können also gerne selbst ein besseres Bild machen
   selbst ein besseres Foto zu machen und es einzureichen, wenn du ein Gericht machst. Wenn Sie nicht wissen, ob Ihr Bild gut ist
-  gut ist, lassen Sie Ihr Foto bitte von einer Person, die sich als Frau indenfiziert aus dem wirklichen Leben absegnen, bevor
-  du es einreichst. Ich meine das ernst, es ist eine Verschwendung für dich und mich an Zeit,
-   die ich micht durch eckelhafte Essensbilder klicken darf.
+  , lassen Sie Ihr Foto bitte von einer femininen Person, aus dem wirklichen Leben absegnen, bevor
+  Sie das Foto einreichen.Es ist Zeitverschwendung für sich als auch für mich.
 - Das Dokument sollte im Unix-Stil mit einer neuen Zeile am Ende versehen sein.
  Falls Sie Linux verwenden, brauchen Sie sich keine Sorgen zu machen, da dies automatisch geschieht.
 
 **Wenn Sie diese Anweisungen nicht befolgen, werde ich Ihre Einreichung schließen, und Sie müssen sie erneut einreichen. Es ist mir leid, mehr als 50% der Einreichungen korrigieren zu müssen.**
 
-Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 'data/authors/your-name.json' einfügen. Schauen Sie sich meine Datei ('data/authors/luke-smith.json') als Modell an. Sie können folgende Informationen hinzufügen: 'website', 'donate' (allgemeiner Spendenlink), 'email' oder Krypto-Adressen wie 'btc', 'xmr' und 'eth'.
+Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 'data/authors/your-name.json' einfügen. Als Beispiel können Sie sich diese Datei anschauen ('data/authors/luke-smith.json'). Falls Sie einen schon geschreiben Artikel ins deutsche übersetzten sollten können Sie sich wie ich als Translator verewigen ('date(translators/develcooking.json'). Sie können folgende Informationen hinzufügen: 'website', 'donate' (allgemeiner Spendenlink), 'email' oder Krypto-Adressen wie 'btc', 'xmr' und 'eth'.
 
 ### Tags/Filter
 
-Tags fungieren hier als Filter. Aufgrunddessen empfehlen Ihnen so viele zutreffende wie möglich zu nutzten.
-Vergessen Sie nicht, Tags zu Ihrem Rezept hinzuzufügen. Versuchen Sie, Tags zu verwenden, die bereits von anderen Rezepten genutzt werden, wir sind auch offen für neue.
-Bitte Vergisst nicht Fische sind auch Tiere. Sie zählen bei der auflistung hier unter Fleisch, haben aber einen eigenen Tag.
+Tags fungieren hier als Filter. Aufgrunddessen empfehlen wir Ihnen so viele zutreffende wie möglich zu nutzten.
+Vergessen Sie nicht, Tags zu Ihrem Rezept hinzuzufügen. Versuchen Sie, Tags zu verwenden, die bereits von anderen Rezepten genutzt werden, wir sind aber immer offen für neue.
+Bitte Vergessen Sie nicht Fische sind auch Tiere. Sie zählen bei der Auflistung hier unter Fleisch, haben aber einen eigenen Tag.
 
 Falls Ihr Rezept weder Fleisch, Milchprodukte noch Eier enthält, fügen Sie den Tag 'Vegan' hinzu.
 Falls Ihr Rezept kein Fleisch enthält, fügen Sie den Tag 'Vegetarisch' hinzu.
