@@ -184,7 +184,7 @@ button#clear-search:hover {
 
 #tag_alkohol:before { content: "🍸" ;}
 #tag_amerikanisch:before { content: "🇺🇸" ; }
-#tag_apfel:before { content: "🍎" ; }
+#tag_äpfel:before { content: "🍎" ; }
 #tag_argentinisch:before { content: "🇦🇷" ; }
 #tag_asiatisch:before { content: "🥢" ; }
 #tag_australisch:before { content: "🇦🇺" ;}
@@ -217,9 +217,9 @@ button#clear-search:hover {
 #tag_english:before { content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿" ; }
 #tag_fasten:before { content: "☦️" ; }
 #tag_philippinisch:before { content: "🇵🇭" ; }
-#tag_Fisch:before { content: "🐟" ; }
+#tag_fisch:before { content: "🐟" ; }
 #tag_französich:before { content: "🇫🇷" ; }
-#tag_frucht:before { content: "🍇" ; }
+#tag_früchte:before { content: "🍇" ; }
 #tag_deutsch:before { content: "🇩🇪" ; }
 #tag_griechisch:before { content: "🇬🇷" ; }
 #tag_indisch:before { content: "🇮🇳" ; }
@@ -234,7 +234,7 @@ button#clear-search:hover {
 #tag_mediterranisch:before { content: "🫒" ; }
 #tag_mexikanisch:before { content: "🇲🇽" ; }
 #tag_milch:before { content: "🥛" ; }
-#tag_pilz:before { content: "🍄" ;}
+#tag_pilze:before { content: "🍄" ;}
 #tag_pfannkuchen:before { content: "🥞" ; }
 #tag_nudeln:before { content: "🍝" ;}
 #tag_gebäck:before { content: "🧁" ;}
