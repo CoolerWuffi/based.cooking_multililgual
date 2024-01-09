@@ -15,7 +15,7 @@ DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und 
 Dies ist eine einfache Koch-Webseite, auf der Nutzer Rezepte einreichen können, um dafür Anerkennung zu erhalten.
 Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um cookies zum essen).
 
-Die Seite wird von Hugo in Verwaltet und umgeschrieben, es wird momentan noch [dieses einfache Farbe](https://github.com/lukesmithxyz/lugov) verwendet.
+Die Seite wird von Hugo Verwaltet und in html umgeschrieben, [dieses einfache Farbeschema](https://github.com/develcooking/glulo) verwendet.
 
 
 ## Möglichkeiten der Teilhabe
@@ -34,7 +34,7 @@ Die Teilhabe ist möglich:
 - Das Rezept muss "ernst" gemeint sein, beispielsweise ein gutes traditionelles und gehaltvolles Essen. Nichts
   ironisches, meme-tier überzuckertes, usw.
 - Fügen Sie kein Bild ein, es sei denn, Sie haben es (1) selbst aufgenommen, und - was noch wichtiger ist
-  (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen meiner Meinung nach
+  (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen nach
   wie unappetitliche "Wir-BRAUCHEN-Bilder" Fotos aus, Sie können also gerne selbst ein besseres Bild machen
   selbst ein besseres Foto zu machen und es einzureichen, wenn du ein Gericht machst. Wenn Sie nicht wissen, ob Ihr Bild gut ist
   , lassen Sie Ihr Foto bitte von einer femininen Person, aus dem wirklichen Leben absegnen, bevor
@@ -50,13 +50,13 @@ Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 
 
 Tags fungieren hier als Filter. Aufgrunddessen empfehlen wir Ihnen so viele zutreffende wie möglich zu nutzten.
 Vergessen Sie nicht, Tags zu Ihrem Rezept hinzuzufügen. Versuchen Sie, Tags zu verwenden, die bereits von anderen Rezepten genutzt werden, wir sind aber immer offen für neue.
-Bitte Vergessen Sie nicht Fische sind auch Tiere. Sie zählen bei der Auflistung hier unter Fleisch, haben aber einen eigenen Tag.
+Bitte Vergessen Sie nicht Fische sind auch Tiere. Sie zählen bei der Auflistung hier unter Fleisch, haben aber einen eigenen Tag. Tags werden immer klein geschrieben 
 
-Falls Ihr Rezept weder Fleisch, Milchprodukte noch Eier enthält, fügen Sie den Tag 'Vegan' hinzu.
-Falls Ihr Rezept kein Fleisch enthält, fügen Sie den Tag 'Vegetarisch' hinzu.
-Falls Ihr Rezept keine Milchprodukte enthält, verwenden Sie den Tag 'Laktosefrei'.
-Falls Ihr Rezept keine Nüsse enthält, verwenden Sie den Tag 'Nussfrei'.
-Falls Ihr Rezept keine Gluten enthält, verwenden Sie den Tag 'Glutenfrei'.
+Falls Ihr Rezept weder Fleisch, Milchprodukte noch Eier enthält, fügen Sie den Tag 'vegan' hinzu.
+Falls Ihr Rezept kein Fleisch enthält, fügen Sie den Tag 'vegetarisch' hinzu.
+Falls Ihr Rezept keine Milchprodukte enthält, verwenden Sie den Tag 'laktosefrei'.
+Falls Ihr Rezept keine Nüsse enthält, verwenden Sie den Tag 'nussfrei'.
+Falls Ihr Rezept keine Gluten enthält, verwenden Sie den Tag 'glutenfrei'.
 
 Wir schätzten und unterstützen hier alle die nur eine begrenzte Auswahl an Nahrungsmittel haben, oder nicht essen möchten.
 
