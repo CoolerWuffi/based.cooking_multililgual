@@ -13,7 +13,7 @@ Ein Schweizer Lieblingsgericht , _Älpermagronen_ kombieniert ziemlich alles was
 Es ist die Defination vom Wohlfühlessen der Schweizer. 
 
 - 🍳 Kochzeit: ~30 Minuten
-- 🍽️  Portionen: 4
+- 🍽️ Portionen: 4
 
 ## Zutaten
 

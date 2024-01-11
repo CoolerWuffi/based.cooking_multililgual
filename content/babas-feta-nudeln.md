@@ -9,9 +9,9 @@ translator: develcooking
 
 Griechisches Nudelrezept mit einer Soße aus Feta, Brühe, Frischkäse und anderen Zutaten. Die Gewürzmischung sorgt für einen besonderen Geschmack und ist ein tolles Abendessen oder eine Mittagsmahlzeit.
 
-- ⏲️ Vorbereiungszeit: 15-30 min
+- ⏲️  Vorbereitungszeit: 15-30 min
 - 🍳 Kochzeit: 25-30 min
-- 🍽️  Portionen: 3
+- 🍽️ Portionen: 3
 
 ## Zutaten
 
