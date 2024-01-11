@@ -4,6 +4,7 @@ date-translated: 11.01.2024
 date: 11.09.2022
 tags: ['salat', 'amerikanisch', 'fasten', 'schnell', 'vegetarisch', 'vegan', 'nussfrei', 'glutenfrei']
 author: joel-maxuel
+translator: develcooking
 ---
 
 Einfaches erweiterbahres Rezept - schwarze Bohnen und Kichererbsen funktionieren aber auch gut 
