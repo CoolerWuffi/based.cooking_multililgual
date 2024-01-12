@@ -2,7 +2,7 @@
 title: "Spaghetti aglio e olio"
 date-translated: 03.12.2023
 date: 21.03.2021
-tags: ['italienisch', 'nudeln', 'vegan', 'vegetarisch']
+tags: ['italienisch', 'nudeln', 'vegan', 'vegetarisch', 'nussfrei']
 author: robert5800
 translator: develcooking
 ---
