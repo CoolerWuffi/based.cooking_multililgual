@@ -1,5 +1,5 @@
 ---
-title: "Pasta Alla Norma"
+title: "Nudeln Alla Norma"
 date-translated: 12.01.2024
 date: 22.03.2021
 tags: ['italienisch', 'nudeln', 'vegan', 'vegetarisch', 'nussfrei']
