@@ -21,13 +21,13 @@ jobs:
     - name: Updating website.
       uses: appleboy/ssh-action@master
       with:
-        host: based.cooking
-        username: based
-        key: ${{ secrets.based_ssh }}
-        passphrase: ${{ secrets.based_ssh_pass }}
-        port: ${{ secrets.based_port }}
+        host: kochenmit.style
+        username: admin-nextloud
+        key: ${{ secrets.style_ssh }}
+        passphrase: ${{ secrets.style_ssh_pass }}
+        port: ${{ secrets.style_port }}
         script: |
           cd repo
           git stash
           git pull --force origin master
-          hugo -s . -t /var/www/lugo -d ~/based.cooking/ --cacheDir ~/hugocache
+          hugo -s . -t /var/www/glulo -d ~/kochenmit.style/ --cacheDir ~/hugocache
