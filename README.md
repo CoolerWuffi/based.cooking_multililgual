@@ -3,12 +3,12 @@
 (Webseite kommt noch)
 [https://kochenmit.style](https://kochenmit.style)
 
-EN: This is a german fork of [based.cooking](https://based.cooking/) and [publicdomainrecipes](https://publicdomainrecipes.com/) that tries to translate the website
+EN: This is a german fork of [based.cooking](https://based.cooking/) and [publicdomainrecipes](https://publicdomainrecipes.com/) that tries to translate the website into german
 
 
 
 
-DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseite zu übersetzen
+DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und [publicdomainrecipes](https://publicdomainrecipes.com/) welcher probiert die Webseite zu übersetzen auf deutsch zu übersetzten
 
 
 
