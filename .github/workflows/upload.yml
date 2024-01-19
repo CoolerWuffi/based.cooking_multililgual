@@ -24,7 +24,6 @@ jobs:
         host: kochenmit.style
         username: admin-nextloud
         key: ${{ secrets.STYLE_SSH }}
-        passphrase: ${{ secrets.STYLE_SSH_PASS }}
         port: ${{ secrets.STYLE_PORT }}
         script: |
           cd repo
