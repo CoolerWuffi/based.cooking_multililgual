@@ -23,9 +23,9 @@ jobs:
       with:
         host: kochenmit.style
         username: admin-nextloud
-        key: ${{ secrets.style_ssh }}
-        passphrase: ${{ secrets.style_ssh_pass }}
-        port: ${{ secrets.style_port }}
+        key: ${{ secrets.STYLE_SSH}}
+        passphrase: ${{ secrets.STYLE_SSH_PASS }}
+        port: ${{ secrets.STYLE_PORT }}
         script: |
           cd repo
           git stash
