@@ -22,11 +22,11 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: kochenmit.style
-        username: admin-nextloud
+        username: ${{ secrets.USER }
         key: ${{ secrets.STYLE_SSH }}
         port: ${{ secrets.STYLE_PORT }}
         script: |
-          cd repo
+          cd kochenmit.style
           git stash
           git pull --force origin master
-          hugo -s . -t /var/www/glulo -d ~/kochenmit.style/ --cacheDir ~/hugocache
+          hugo -s . -t /home/${{ secrets.USER }}/www/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache
