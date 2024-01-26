@@ -29,4 +29,4 @@ jobs:
           cd kochenmit.style
           git stash
           git pull --force origin master
-          hugo -s . -t /home/${{ secrets.USER }}/www/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache
+          hugo -s . -t $HOME/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache
