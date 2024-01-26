@@ -14,18 +14,18 @@ Einfaches erweiterbahres Rezept - schwarze Bohnen und Kichererbsen funktionieren
 
 ## Zutaten
 
-    80 ml Salatöl (Olivenöl, Rapsöl oder Sonnenblumenöl)
-    120 ml Apfelessig
-    1 TL Salz
-    1/2 TL Pfeffer
-    60 g Zucker
-    1/2 TL Selleriesamen
-    1 Dose Grüne Bohnen, abgetropft
-    1 Dose Wachsbohnen, abgetropft
-    1 Dose Rote Kidneybohnen, abgetropft
-    1 Karotte, dünn geschnitten
-    1 kleine Zwiebel, gehackt
-    1 Paprika
+   - 80 ml Salatöl (Olivenöl, Rapsöl oder Sonnenblumenöl)
+   - 120 ml Apfelessig
+   - 1 TL Salz
+   - 1/2 TL Pfeffer
+   - 60 g Zucker
+   - 1/2 TL Selleriesamen
+   - 1 Dose Grüne Bohnen, abgetropft
+   - 1 Dose Wachsbohnen, abgetropft
+   - 1 Dose Rote Kidneybohnen, abgetropft
+   - 1 Karotte, dünn geschnitten
+   - 1 kleine Zwiebel, gehackt
+   - 1 Paprika
 
  Eine Dose sollte etwa 400g Wiegen
 
