@@ -22,7 +22,7 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: kochenmit.style
-        username: ${{ secrets.USER }
+        username: ${{ secrets.STYLE_USER }
         key: ${{ secrets.STYLE_SSH }}
         port: ${{ secrets.STYLE_PORT }}
         script: |
