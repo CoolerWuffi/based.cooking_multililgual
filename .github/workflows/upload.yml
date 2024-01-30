@@ -21,7 +21,7 @@ jobs:
     - name: Updating website.
       uses: appleboy/ssh-action@master
       with:
-        host: kochenmit.style
+        host: ${{ secrets.STYLE_HOST }
         username: ${{ secrets.STYLE_USER }
         key: ${{ secrets.STYLE_SSH }}
         port: ${{ secrets.STYLE_PORT }}
