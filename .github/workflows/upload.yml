@@ -17,16 +17,22 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    - name: Updating website.
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.STYLE_HOST }}
-        username: ${{ secrets.STYLE_USER }}
-        key: ${{ secrets.STYLE_SSH }}
-        port: ${{ secrets.STYLE_PORT }}
-        script: |
-          cd kochenmit.style 
+      steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.STYLE_SSH }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa kochenmit.style >> ~/.ssh/known_hosts
+
+    - name: Connect to Server and Execute Commands
+      run: |
+        ssh -p ${{ secrets.STYLE_PORT }} ${{ secrets.STYLE_USER }}@kochenmit.style << EOF
+          cd kochenmit.style
           git stash
           git pull --force origin master
           hugo -s . -t $HOME/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache
+        EOF
