@@ -1,33 +1,32 @@
 name: CI
 
+# Controls when the action will run.
 on:
+  # Triggers the workflow on push to master (including merged PRs)
   push:
-    branches: [ main ]
+    branches: [ master ]
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  deploy:
+  # This workflow contains a single job called "build"
+  update:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
-      - name: Set up SSH
-        uses: webfactory/ssh-agent@v0.5.2
-        with:
-          ssh-private-key: ${{ secrets.STYLE_SSH }}
-
-      - name: Connect to Server and Run Commands
-  run: |
-    mkdir -p ~/.ssh
-    ssh-keyscan -t rsa -p ${{ secrets.STYLE_PORT }} kochenmit.style >> ~/.ssh/known_hosts
-    ssh -o StrictHostKeyChecking=yes -t -p ${{ secrets.STYLE_PORT }} ${{ secrets.STYLE_USER }}@kochenmit.style "\
-      cd kochenmit.style \
-      && git stash \
-      && git pull --force origin main \
-      && hugo -s . -t $HOME/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache"
+    - name: Updating website.
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.STYLE_HOST }}
+        username: ${{ secrets.STYLE_USER }}
+        key: ${{ secrets.STYLE_SSH }}
+        port: ${{ secrets.based_port }}
+        script: |
+          cd kochenmit.style 
+          git stash
+          git pull --force origin master
+          hugo -s . -t $HOME/glulo -d /var/www/kochenmitstyle/ --cacheDir ~/hugocache
