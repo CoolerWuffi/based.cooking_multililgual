@@ -19,7 +19,8 @@ update_theme() {
             cd "$HUGO_THEME" || exit
                 git stash
                 git pull --force origin master
-               										                }
+		hugo -s . -t "$HUGO_THEME" -d "$WEB_DIR" --cacheDir "$HUGO_CACHE_DIR"
+               	}
 
 		
 
