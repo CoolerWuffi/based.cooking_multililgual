@@ -276,8 +276,26 @@ button#clear-search:hover {
 #tag_ukrainisch:before { content: "🇺🇦" ; }
 #tag_vietnamesisch:before { content: "🇻🇳" ; }
 #tag_wein:before { content: "🍷" ; }
-#tag_vegan:before { content: "🌱🌱" ; }
-#tag_vegetarisch:before { content: "🌱" ; }
+#tag_vegan:before {
+	display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    content: "";
+	margin-right: 0.25em;
+	vertical-align: middle;
+    background: url("/icons/vegan.webp") no-repeat 0 0;
+	background-size: 100%;
+}
+#tag_vegetarisch:before {
+	display: inline-block;
+    width: 1.25em;
+    height: 1.25em;
+    content: "";
+	margin-right: 0.25em;
+	vertical-align: middle;
+    background: url("/icons/vegetarisch.webp") no-repeat 0 0;
+	background-size: 100%;
+}
 
 .cryptocontainer {
     display: flex ;
