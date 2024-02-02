@@ -84,5 +84,3 @@ Wir exestiern nur wegen euch, hier gibt es keine 20MB an Werbung oder Privatsph�
 Falls Sie uns (den deutschen Übersetzter) unterstützen möchten können Sie and diese Monero Adresse spenden
 {{< crypto >}}
 
-Impressum und Datenschutz
-<a href="https://impressum.kochenmit.style/">Impressum und Datenschutz</a>
