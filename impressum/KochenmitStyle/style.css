@@ -1,0 +1,298 @@
+body {
+	background: #151515 ;
+	color: navajowhite ;
+	max-width: 850px ;
+	margin: auto ;
+	padding: 0 16px ;
+	margin-bottom: 500px ;
+	scrollbar-color: gray #151515;
+	font-family: sans-serif ;
+}
+
+::-webkit-scrollbar {
+	width: .66vw;
+	background-color: #151515;
+}
+::-webkit-scrollbar-thumb {
+	background-color: gray;
+	border-radius: 5px;
+}
+
+a {
+	color: gold ;
+	text-decoration: none ;
+}
+
+#tagcloud {
+	list-style: none ;
+	text-align: center ;
+	padding: 0 ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	margin: .1em .25em ;
+}
+
+a:visited {
+	color: darkgoldenrod ;
+}
+
+a:hover {
+	color: beige ;
+	text-decoration: underline;
+}
+
+h1 {
+	border-style: solid ;
+	border-width: 0px 0px 2px 0px ;
+	text-align: center ;
+}
+
+h2 {
+	color: tomato ;
+	text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	border-style: solid ;
+	border-width: 2px 0px 0px 0px ;
+	padding: 1em ;
+}
+
+img {
+	max-width: 90% ;
+	max-height: 400px ;
+	margin: auto ;
+	display: block ;
+}
+
+code {
+	overflow-wrap: break-word ;
+	color: lime ;
+}
+
+.taglist {
+	text-align: center ;
+	margin-bottom: 2em ;
+	margin-top: 2em ;
+}
+
+img[alt="BTC Logo"],
+img[alt="ETH Logo"],
+img[alt="XMR Logo"] {
+	max-width: 1em ;
+	max-height: 1em ;
+	display: inline ;
+}
+
+@media (pointer: coarse) {
+	li > a {
+	    display: inline-block;
+		padding: 0.2em 0;
+	}
+}
+
+@media print {
+	a[href] {
+		text-decoration: none ;
+		color: black ;
+	}
+
+	footer,.taglist { display: none ; }
+
+	body {
+		margin: 0;
+	}
+
+
+}
+
+.older-article {
+	display: none ;
+}
+
+.hidden {
+	display: none !important ;
+}
+
+#artlist {
+	font-size: large ;
+}
+
+#artlist li {
+	padding: .25em ;
+}
+
+@media (min-width: 55em) {
+	#artlist { column-count: 2 ;}
+}
+
+@media (min-width: 100em) {
+	#artlist { column-count: 3 ;}
+}
+
+
+input#search {
+  all: unset;
+  background: #222;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.search {
+  width: 400px;
+  max-width: 85vw;
+  position: relative;
+  margin: 0.5rem auto 1.2rem;
+  display: flex;
+}
+
+button#clear-search {
+  all: unset;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  height: 30px;
+  width: 30px;
+  color: #888;
+  cursor: pointer;
+  transition: color 180ms ease-in-out;
+}
+button#clear-search:hover {
+  color: #eee;
+}
+
+
+.matched-recipe {
+	font-size: x-large ;
+	display: list-item !important ;
+}
+
+.list-searched {
+	column-count: 1 !important ;
+	list-style: decimal ;
+	max-width: 600px ;
+	markin: auto ;
+}
+
+#tag_alkohol:before { content: "🍸" ;}
+#tag_amerikanisch:before { content: "🇺🇸" ; }
+#tag_äpfel:before { content: "🍎" ; }
+#tag_argentinisch:before { content: "🇦🇷" ; }
+#tag_asiatisch:before { content: "🥢" ; }
+#tag_australisch:before { content: "🇦🇺" ;}
+#tag_österreichisch:before { content: "🇦🇹" ;}
+#tag_speck:before { content: "🥓" ; }
+#tag_bohnen:before { content: "🫘" ; }
+#tag_rindfleisch:before { content: "🐄" ; }
+#tag_belgisch:before { content: "🇧🇪" ; }
+#tag_brasilianisch:before { content: "🇧🇷" ; }
+#tag_brot:before { content: "🍞" ;}
+#tag_frühstück:before { content: "🌅" ;}
+#tag_brokkoli:before { content: "🥦" ;}
+#tag_kuchen:before { content: "🍰" ; }
+#tag_käse:before { content: "🧀" ; }
+#tag_hühnchen:before { content: "🐔" ;}
+#tag_chinesisch:before { content: "🐉" ; }
+#tag_schokolade:before { content: "🍫" ; }
+#tag_weihnachten:before { content: "🎄" ; }
+#tag_kekse:before { content: "🍪" ;}
+#tag_mais:before { content: "🌽" ;}
+#tag_curry:before { content: "🍛" ; }
+#tag_dessert:before { content: "🍮" ; }
+#tag_dominican:before { content: "🇩🇴" ;}
+#tag_drink:before { content: "🍹" ;}
+#tag_ente:before { content: "🦆" ; }
+#tag_dumpling:before { content: "🥟" ;}
+#tag_niederländisch:before { content: "🇳🇱" ;}
+#tag_östlich:before { content: "✝️" ; }
+#tag_eier:before { content: "🥚" ; }
+#tag_english:before { content: "🏴󠁧󠁢󠁥󠁮󠁧󠁿" ; }
+#tag_fasten:before { content: "☦️" ; }
+#tag_philippinisch:before { content: "🇵🇭" ; }
+#tag_fisch:before { content: "🐟" ; }
+#tag_französich:before { content: "🇫🇷" ; }
+#tag_früchte:before { content: "🍇" ; }
+#tag_deutsch:before { content: "🇩🇪" ; }
+#tag_griechisch:before { content: "🇬🇷" ; }
+#tag_indisch:before { content: "🇮🇳" ; }
+#tag_irisch:before { content: "🇮🇪" ; }
+#tag_israelisch:before { content: "🇮🇱" ; }
+#tag_italienisch:before { content: "🇮🇹" ; }
+#tag_japanisch:before { content: "🇯🇵" ; }
+#tag_libanesisch:before { content: "🇱🇧" ; }
+#tag_zitronen:before { content: "🍋" ;}
+#tag_likör:before { content: "🥃" ;}
+#tag_mittagessen:before { content: "🍱" ; }
+#tag_mediterranisch:before { content: "🫒" ; }
+#tag_mexikanisch:before { content: "🇲🇽" ; }
+#tag_milch:before { content: "🥛" ; }
+#tag_pilze:before { content: "🍄" ;}
+#tag_pfannkuchen:before { content: "🥞" ; }
+#tag_nudeln:before { content: "🍝" ;}
+#tag_gebäck:before { content: "🧁" ;}
+#tag_peruanisch:before { content: "🇵🇪" ;}
+#tag_kuchen:before { content: "🥧" ;}
+#tag_pizza:before { content: "🍕" ; }
+#tag_polnish:before { content: "🇵🇱" ;}
+#tag_schweinefleisch:before { content: "🐖" ;}
+#tag_portugiesisch:before { content: "🇵🇹" ;}
+#tag_kartoffel:before { content: "🥔" ; }
+#tag_quebec:before { content: "⚜️" ; }
+#tag_schnell:before { content: "🏃" ; }
+#tag_roh:before { content: "🍖" ;}
+#tag_reis:before { content: "🍚" ; }
+#tag_russisch:before { content: "🇷🇺" ;}
+#tag_salat:before { content: "🥗" ;}
+#tag_sandwich:before { content: "🥪" ;}
+#tag_seekost:before { content: "🦐" ; }
+#tag_suppe:before { content: "🍜" ;}
+#tag_sauerteig:before { content: "🥖" ;}
+#tag_südwestlich:before { content: "🤠" ; }
+#tag_spanish:before { content: "🇪🇸" ; }
+#tag_gewürz:before { content: "🧂" ; }
+#tag_scharf:before { content: "🌶️" ; }
+#tag_verbreitung:before { content: "🧈" ; }
+#tag_steak:before { content: "🥩" ; }
+#tag_eintopf:before { content: "🍲" ; }
+#tag_schwedisch:before { content: "🇸🇪" ; }
+#tag_süßigkeit:before { content: "🍯" ; }
+#tag_schweizer:before { content: "🇨🇭" ; }
+#tag_thailändisch :before { content: "🇹🇭" ;}
+#tag_tomate:before { content: "🍅" ;}
+#tag_tunisisch:before { content: "🇹🇳" ; }
+#tag_truthahn:before { content: "🦃" ; }
+#tag_türkisch:before { content: "🇹🇷" ; }
+#tag_ukrainisch:before { content: "🇺🇦" ; }
+#tag_vietnamesisch:before { content: "🇻🇳" ; }
+#tag_wein:before { content: "🍷" ; }
+#tag_vegan:before { content: "🌱🌱" ; }
+#tag_vegetarisch:before { content: "🌱" ; }
+
+.cryptocontainer {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+}
+.cryptoinfo {
+    max-width: 350px ;
+    text-align: center ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cryptoinfo code {
+	font-size: small ;
+	overflow-wrap: break-word ;
+}
+
+.js-only { display: none ; }
