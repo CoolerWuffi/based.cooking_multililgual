@@ -19,6 +19,7 @@ update_theme() {
             cd "$HUGO_THEME" || exit
                 git stash
                 git pull --force origin master
+		rm -r /var/www/kochenmitstyle/*
 		hugo -s . -t "$HUGO_THEME" -d "$WEB_DIR" --cacheDir "$HUGO_CACHE_DIR"
                	}
 
@@ -40,6 +41,7 @@ update_website() {
 	    cd "$LOCAL_DIR" || exit
 	        git stash
 		git pull --force origin master
+		rm -r /var/www/kochenmitstyle/*
 		hugo -s . -t "$HUGO_THEME" -d "$WEB_DIR" --cacheDir "$HUGO_CACHE_DIR"
 		}
 

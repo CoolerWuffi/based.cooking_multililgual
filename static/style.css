@@ -283,7 +283,7 @@ button#clear-search:hover {
     content: "";
 	margin-right: 0.25em;
 	vertical-align: middle;
-    background: url("/icons/vegan.webp") no-repeat 0 0;
+    background: url("/hi/vegan.webp") no-repeat 0 0;
 	background-size: 100%;
 }
 #tag_vegetarisch:before {
@@ -293,7 +293,7 @@ button#clear-search:hover {
     content: "";
 	margin-right: 0.25em;
 	vertical-align: middle;
-    background: url("/icons/vegetarisch.webp") no-repeat 0 0;
+    background: url("/hi/vegetarisch.webp") no-repeat 0 0;
 	background-size: 100%;
 }
 

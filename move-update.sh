@@ -13,15 +13,7 @@ HUGO_THEME="$HOME/glulo"
 WEB_DIR="/var/www/kochenmitstyle/"
 HUGO_CACHE_DIR="$HOME/hugocache"
 
-
-            	cd "$HUGO_THEME" || exit
-                git stash
-                git pull --force origin master               	
-		rm -r /var/www/kochenmitstyle/*
-		
-
 		cd "$LOCAL_DIR" || exit
-	        git stash
-		git pull --force origin master
+		rm -r /var/www/kochenmitstyle/*
 		hugo -s . -t "$HUGO_THEME" -d "$WEB_DIR" --cacheDir "$HUGO_CACHE_DIR"
 		echo "${GREEN}Webseite erfolgreich aktualisiert.${RESET}"	
