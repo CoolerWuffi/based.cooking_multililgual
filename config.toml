@@ -1,6 +1,7 @@
 baseURL = 'https://kochenmit.style/'
 theme = 'glulo'
 languageCode = 'de-DE'
+defaultContentLanguage = "de"
 title = 'Kochen mit Style'
 
 [params]
