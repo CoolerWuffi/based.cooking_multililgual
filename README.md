@@ -33,17 +33,11 @@ Die Teilhabe ist möglich:
 - Das Rezept muss "ernst" gemeint sein, beispielsweise ein gutes traditionelles und gehaltvolles Essen. Nichts
   ironisches, meme-tier überzuckertes, usw.
 - Fügen Sie kein Bild ein, es sei denn, Sie haben es (1) selbst aufgenommen, und - was noch wichtiger ist
-  (2), **es sieht tatsächlich gut aus**! Die meisten vorhandenen Bilder auf dieser Seite sehen nach
-  wie unappetitliche "Wir-BRAUCHEN-Bilder" Fotos aus, Sie können also gerne selbst ein besseres Bild machen
-  selbst ein besseres Foto zu machen und es einzureichen, wenn du ein Gericht machst. Wenn Sie nicht wissen, ob Ihr Bild gut ist
-  , lassen Sie Ihr Foto bitte von einer femininen Person, aus dem wirklichen Leben absegnen, bevor
-  Sie das Foto einreichen.Es ist Zeitverschwendung für sich als auch für mich.
+  (2), **es sieht tatsächlich gut aus**!
 - Das Dokument sollte im Unix-Stil mit einer neuen Zeile am Ende versehen sein.
  Falls Sie Linux verwenden, brauchen Sie sich keine Sorgen zu machen, da dies automatisch geschieht.
 
-**Wenn Sie diese Anweisungen nicht befolgen, werde ich Ihre Einreichung schließen, und Sie müssen sie erneut einreichen. Es ist mir leid, mehr als 50% der Einreichungen korrigieren zu müssen.**
-
-Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 'data/authors/your-name.json' einfügen. Als Beispiel können Sie sich diese Datei anschauen ('data/authors/luke-smith.json'). Falls Sie einen schon geschreiben Artikel ins deutsche übersetzten sollten können Sie sich wie ich als Translator verewigen ('date(translators/develcooking.json'). Sie können folgende Informationen hinzufügen: 'website', 'donate' (allgemeiner Spendenlink), 'email' oder Krypto-Adressen wie 'btc', 'xmr' und 'eth'.
+Sie können eine JSON-Datei mit Ihren persönlichen Links/Spendenadressen unter 'data/authors/your-name.json' einfügen. Als Beispiel können Sie sich diese Datei anschauen ('data/authors/luke-smith.json'). Falls Sie einen schon geschreiben Artikel ins deutsche übersetzten sollten können Sie sich wie ich als Translator verewigen ('data/translators/develcooking.json'). Sie können folgende Informationen hinzufügen: 'website', 'donate' (allgemeiner Spendenlink), 'email' oder Krypto-Adressen wie 'btc', 'xmr' und 'eth'.
 
 ### Tags/Filter
 
