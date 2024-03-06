@@ -14,7 +14,7 @@ DE: Dies ist ein Deutscher fork von [based.cooking](https://based.cooking/) und 
 Dies ist eine einfache Koch-Webseite, auf der Nutzer Rezepte einreichen können, um dafür Anerkennung zu erhalten.
 Es gibt keine Werbung, Tracker oder Cookies (es sei denn, es handelt sich um cookies zum essen).
 
-Die Seite wird von Hugo Verwaltet und in html umgeschrieben, [dieses einfache Farbeschema](https://github.com/develcooking/glulo) verwendet.
+Die Seite wird von Hugo Verwaltet und in html umgeschrieben, dabei wird [dieses einfache Farbeschema](https://github.com/develcooking/glulo) verwendet.
 
 
 ## Möglichkeiten der Teilhabe
