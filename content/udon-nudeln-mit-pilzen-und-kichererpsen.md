@@ -1,12 +1,10 @@
 ---
 title: Udon Nudeln mit Pilzen und Kichererpsen
 date: 04.01.2024
-tags: ['asiatisch', 'vegetarisch','pilze', 'käse', 'bohnen']
+tags: ['asiatisch', 'vegetarisch', 'pilze', 'käse', 'bohnen']
 author: develcooking
 ---
 
-
-![Bild-von-Udon-Nudeln-mit-Pilzen-und-Kichererpsen](/pix/udon-nudeln-mit-pilzen-und-kichererpsen.webp)
 Dies ist ein köstliches Asiatisches Nudel Gericht welches ich selber zusammengebraut habe. Wir hatten nicht mehr viel zu essen Zuhause und so ist das Rezept entstanden. Weil es so lecker war ist es nun hier.
 
 - 🍳 Kochzeit: ~25 min

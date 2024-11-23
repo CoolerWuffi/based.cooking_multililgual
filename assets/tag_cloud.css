@@ -89,15 +89,18 @@
 #tag_ukrainisch:before { content: "🇺🇦" ; }
 #tag_vietnamesisch:before { content: "🇻🇳" ; }
 #tag_wein:before { content: "🍷" ; }
+
+/* Custom emojis */
 #tag_vegan:before {
-	display: inline-block;
+    display: inline-block;
     width: 1.25em;
     height: 1.25em;
     content: "";
 	margin-right: 0.25em;
 	vertical-align: middle;
-    background: url("/hi/vegan.webp") no-repeat 0 0;
+    background: url("/custom_icons/vegan.webp") no-repeat 0 0;
 	background-size: 100%;
+
 }
 #tag_vegetarisch:before {
 	display: inline-block;
@@ -106,6 +109,7 @@
     content: "";
 	margin-right: 0.25em;
 	vertical-align: middle;
-    background: url("/hi/vegetarisch.webp") no-repeat 0 0;
+    background: url("/custom_icons/vegetarisch.webp") no-repeat 0 0;
 	background-size: 100%;
+
 }

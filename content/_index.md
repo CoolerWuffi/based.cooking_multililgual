@@ -69,18 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
 ## Über diese Webseite
 Diese Webseite ist der deutsche Ableger von <a href="https://based.cooking/">based.cooking</a> bzw. [publicdomainrecipes](https://publicdomainrecipes.com/) . Diese Seite wurde erstellt um ein einfaches online Kochbuch ohne Werbung und schlanken Design in deutsch für alle zu sein.  
 
-Siehen Sie in 3 Vidoes die Historie, weshalb wir diese Webseite begonnen haben.
-Diese Videos sind in Englisch.
-
-- [Ein Demonstration von dem Modern aufgebläten Web](https://odysee.com/@Luke:7/a-demonstration-of-modern-web-bloat:f)
-- [Der Krieg gegen das augebläten Web geht in die Nächste Runde...](https://odysee.com/@Luke:7/the-war-against-web-bloat-continues...:a)
-- [SoyDevs wurden auf epischer Weise von Based Cooking ZERSTÖRT!](https://odysee.com/@Luke:7/soydevs-destroyed-epic-style-by-based:6)
-
 ## Die Teilnahme ist einfach!
 
 Neu Rezepte können [auf Github](https://github.com/develcooking/kochenmit.style) Vorgeschlagen werden.
 Wir exestiern nur wegen euch, hier gibt es keine 20MB an Werbung oder Privatsphäre igronierenden Tracker auf jeder Unterseite.
-
-Falls Sie uns (den deutschen Übersetzter) unterstützen möchten können Sie and diese Monero Adresse spenden
-{{< crypto >}}
 
